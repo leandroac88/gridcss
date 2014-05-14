@@ -16,15 +16,46 @@
     clear: both;
 }
 
-[class*='-bloc'] {
+[class*='bloc-'] {
     float: left;
 }
 
-.12-blocs {
+.bloc-12 {
     width: 100%;
 }
 
-.6-blocs {
+.bloc-8 {
+    width: 66.67%;
+}
+
+.bloc-6 {
     width: 50%;
 }
 
+.bloc-4 {
+    width: 33.33%;
+}
+
+.bloc-3 {
+    width: 25%;
+}
+
+.bloc-2 {
+    width: 16.66%;
+}
+
+.bloc-1 {
+    width: 8.33%;
+}
+
+/* -------------------------------------- */
+
+.container {
+    margin: 0 0 10px;
+}
+
+[class*='bloc-'] {
+    height: 40px;
+    background-color: #36e8ff;
+    border: 1px solid #fff;
+}
