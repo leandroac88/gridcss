@@ -39,7 +39,8 @@ body {
   margin-bottom: 0;
 }
 
-.linha:after, [class^='coluna']:after {
+.linha:after,
+[class^='coluna']:after {
   content: '';
   display: block;
   clear: both;
@@ -140,6 +141,10 @@ body {
     width: 80%;
   }
 
+  .coluna-m-75 {
+    width: 75%;
+  }
+
   .coluna-m-66 {
     width: 66.66%;
   }
@@ -189,6 +194,10 @@ body {
     width: 80%;
   }
 
+  .coluna-g-75 {
+    width: 75%;
+  }
+
   .coluna-g-66 {
     width: 66.66%;
   }
@@ -236,6 +245,10 @@ body {
 
   .coluna-gg-80 {
     width: 80%;
+  }
+
+  .coluna-gg-75 {
+    width: 75%;
   }
 
   .coluna-gg-66 {
